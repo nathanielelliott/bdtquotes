@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-size: 16px;
+  font-family: Lato, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+#container {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  transition: background-color 0.8s;
+}
+
+#quote-box {
+  background-color: white;
+  width: 50%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 5px;
+  padding: 2em 3em;
+}
+
+p {
+  font-size: 2em;
+}
+
+#tweet-quote-b a {
+  text-decoration: none;
+}
+#author {
+  width: 100%;
+  text-align: right;
+  font-size: 1.2em;
+}
+
+footer {
+  width: 100%;
+  font-size: 0.5em;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+button {
+  color: white;
+  padding: 1em;
+  font-size: 0.8em;
+  border-radius: 3px;
+  border-color: transparent;
+  background-color: #66BB6A;
+  transition: background-color 0.8s;
+}
+
+#tweet-quote-b {
+  float: left;
+}
+
+#new-quote {
+  float: right;
+}
